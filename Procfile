@@ -1,0 +1,1 @@
+web PORT=80 parse-server --appId APPLICATION_ID --masterKey MASTER_KEY
