@@ -66,7 +66,7 @@
   },
   "scripts": {
     "start": "PORT=80 parse-server --appId APPLICATION_ID --masterKey MASTER_KEY",
-	"postinstall": "npm install -g parse-server mongodb-runner && mongodb-runner start PORT=80 parse-server --appId APPLICATION_ID --masterKey MASTER_KEY"
+	"postinstall": "npm install -g parse-server mongodb-runner && mongodb-runner start && PORT=80 parse-server --appId APPLICATION_ID --masterKey MASTER_KEY"
   },
   "engines": {
     "node": ">=4.3"
